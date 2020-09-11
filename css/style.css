@@ -1,0 +1,16 @@
+.produto{
+    float:left;
+    width: 200px;
+    height: 250px;
+    background-color: aliceblue;
+    margin: 5px;
+}
+@media screen and (max-width: 480px){
+    .produto{
+        width: 150px;
+        height: 250px
+    }
+    .container {
+        margin-right: 30px;
+    }
+}
